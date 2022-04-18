@@ -60,7 +60,7 @@ les param au hasard ainsi que celle de la liste de liste-->
        Le code fonctionne bien et nous affiche une courbe représentant l'espérance de vie d'un couple (pour l'instant unité arbitraire) en fonction du nombre
        de paramètres en communs. Cependant il serait intéressant d'avoir la droite de régression linéaire permettant de visualiser la moyenne pour chaque 
        nombre de points en communs. Malgré l'abscence de ce tracé qui devrait etre de la forme "plt.plot", lorsqu'on augmente le nombre 
-       de meeting effectués on constate que la courbe augmente apparament de plus en plus vite.
+       de meeting effectués on constate que les points avec plusieurs points communs se placent de manière générale de plus en plus haut.
      </ul>
   
   <img style= "width: 30%" src="graphique_ARE1.jpg" alt=" jsp"/>
@@ -71,14 +71,16 @@ les param au hasard ainsi que celle de la liste de liste-->
   <p style="width: 50%">
      Semaine du 11 avril:
      <ul>
-       bla bla bla 
+       Le but de cette semaine est d'avoir fini le plus gros du travail et surtout de finaliser le code et ses rendus, pour avoir le temps de mettre en forme 
+       la page html avant lundi 18 avril. Même si la courbe en fonction des points communs tient la route et nous donne un graphique cohérent je souhaite
+       que l'estimation donnée par notre programme se base sur un écart entre les caractéristiques des deux agents plutôt que sur juste un nombre
+       de point communs qui peuvent parfois ne pas être les plus influent sur la bonne entente dans un couple.
      </ul>
-  
   <img style= "width: 30%" src="graphique_duree_distance.jpg" alt="jsp"/>
   <p style = "width: 50%">    
     <em>La deuxième image est le premier graphique qui prend en compte l'écart d'age, personnalité, envies... mais on se rend
       compte qu'il y a une erreur car plus il y a de différences plus le couple peut durer longtemps. Cela ferait croire que les
-      opposés s'attire mais ce n'est pas ce qui ressortdes études que nous avons utilisées</em>
+      opposés s'attire mais ce n'est pas ce qui ressortdes études que nous avons utilisées.</em>
    <!--Nous commençons à appliquer des coefficients proche de la réalité, c'est à dire, par exemple, que la différence d'âge entre les deux individus
        de notre couple importe plus que la différence de taille. Notre code semble prendre en compte les nouveux coefficients,
        cependant la courbe que l'on espérait être strictement croissante présente des fluctuations en son milieu, cela doit être dû à une erreur de codage.-->
